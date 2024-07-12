@@ -1,0 +1,54 @@
+.file {
+    background-image: url(space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    width: 100%;
+    height: 1000px;
+    
+}
+
+.glob {
+    position: relative;
+}
+
+.img1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 700px;
+    top: 200px;
+    animation: globe 10s infinite;
+}
+@keyframes globe {
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+.rotater {
+    /* border: 2px solid white; */
+    color: blue;
+    border-radius: 360px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: -685px;
+    top: 200px;
+    animation: circle 15s infinite;
+    
+}
+@keyframes circle {
+    100%{
+        transform: rotate(360deg);
+    }       
+}
+
+.car{
+    background-image: url(car.png);
+    background-size: cover ;
+    width: 200px;
+    height: 100px;
+    transform: rotate(-40deg);
+
+}
